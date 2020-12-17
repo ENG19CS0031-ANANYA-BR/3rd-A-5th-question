@@ -132,7 +132,7 @@ if __name__ == '__main__':
 when key does not exist in data1, the key-value pair is not added to it.
 
 5)b)
-ther was an indentation error due to which itwas not being read.
+there was an indentation error due to which itwas not being read.
  if k in data1:
         v1=data1[k]
         if v1!=v2:
@@ -170,7 +170,7 @@ test case3:
       4 4
     
 5)c)
-(I)Input 
+(i)Input 
 n1=3
 1 2
 2 2
@@ -183,7 +183,7 @@ expected output
 [[3,3],[1,4]]
 {1:[2,4]}
 
-(i i)
+(ii)input
 n1=2
 1 2
 2 4
