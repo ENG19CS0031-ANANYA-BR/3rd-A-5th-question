@@ -112,3 +112,61 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+
+    
+    
+    
+ 5)a)
+    INPUT:
+        3
+        1 3
+        2 5
+        8 9
+        2
+        3 3
+        2 9
+    the output we need to get:
+   {1;3,8:9,3:3}
+   [[3,3]2,9]]
+   {2,[5,9]}                       # but this is not the output we get
+when key does not exist in data1, the key-value pair is not added to it.
+
+5)b)
+ther was an indentation error due to which itwas not being read.
+ if k in data1:
+        v1=data1[k]
+        if v1!=v2:
+            dupkeys[k]=[v1,v2]
+            del data1[k]
+ else:
+    data1[k]=v2
+    
+5)c)
+ test case1:
+        3
+        1 3
+        2 5
+        8 9
+        2
+        3 3
+        2 9     
+ test case2:
+       4
+       1 2
+       2 3
+       3 4
+       4 15
+       2
+       3 4
+       4 15
+test case3:
+      4
+      1 2
+      3 3
+      3 8
+      4 9
+      2
+      3 3
+      4 4
+    
+
